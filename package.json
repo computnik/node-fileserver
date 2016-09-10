@@ -1,10 +1,11 @@
 {
   "name": "static-server",
-  "version": "0.0.1-rc0",
+  "version": "0.0.1",
   "description": "Static FilesServer",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "server",
@@ -12,7 +13,7 @@
     "nodejs"
   ],
   "author": "Nikhil Motiani <nikhil.motiani@outlook.com>",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "finalhandler": "^0.5.0",
     "fs": "0.0.1-security",
@@ -21,5 +22,13 @@
     "serve-index": "^1.8.0",
     "serve-static": "^1.11.1",
     "tls": "0.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.home.247-inc.net:nikhil-m/FileServer.git"
   }
 }
